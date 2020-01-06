@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'bitstream';
+    src: url('fonts/VeraMono.ttf');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: arial;
+    padding: 5px 10px;
+    color: #66FF00;
+    background-color: Black;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td, tr {
+    border: 0;
+    padding: 0;
+}
+
+table thead th {
+    text-align: left;
+    font-weight: normal;
+    border: 0;
+}
+
+.title-artist, .tempo {
+    margin-right: 25px;
+}
+
+.song-info {
+    margin-bottom: 15px;
+}
+
+.chords {
+    color: white;
+}
+
+.chorus {
+    color: #FF00FF;
+}
+
+.lyric-block {
+    margin-bottom: 25px;
+    line-height: 28px;
+}
+
+[right] {
+    text-align: right;
+}
+
+[invisible] {
+    visibility: hidden;
+}
+
+[left] {
+    text-align: left;
+}
+
+.stanza {
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.stanza td {
+    padding: 0;
+    margin: 0;
+}
+
+.stanza .chords td {
+    padding-top: 5px;
+}
+
+.stanza .strumming-pattern td {
+    padding-top: 5px;
+}
+
+.bar {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.bar tr td:nth-child(1) {
+    background-color: #151515;
+}
+
+.bar tr td:nth-child(3) {
+    background-color: #151515;
+}
+
+tbody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+thead {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.lyric-block.chorus {
+    color: #FF00FF;
+}
+
+.eighth-note {
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+}
+
+.font-0 {
+    font-size: 0;
+}
+
+.arrow {
+    position: relative;
+    left: -2px;
+}
+
+.down {
+    position: relative;
+    left: -3px;
+}
+
+.up {
+    /* -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg); */
+    left: -3px;
+}
+
+.chord-lyric-inline-block {
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 8px;
+}
+
+.chord-lyric-block {
+    display: block;
+}
+
+.row-2 {
+    margin-top: 5px;
+}

@@ -1,0 +1,182 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica;
+    padding: 20px;
+    color: #66FF00;
+    background-color: Black;
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.song-info {
+    float: right;
+    text-align: right;
+}
+
+.song-info div {
+    margin-bottom: 12px;
+}
+
+.strumming-pattern {
+    margin-bottom: 30px;
+}
+
+.strumming-pattern .bar {
+    border-left: 1px solid #66FF00;
+    table-layout: fixed;
+    display: inline-block;
+}
+
+.strumming-pattern .bar td {
+    text-align: center;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.strumming-pattern .bar td:first-child {
+    padding-left: 15px;
+}
+
+.strumming-pattern .bar td:last-child {
+    padding-right: 15px;
+}
+
+.stroke td {
+    padding-top: 5px;
+}
+
+.strumming-pattern .bar:last-child {
+    border-right: 1px solid #66FF00;
+}
+
+.chords {
+    line-height: 28px;
+    color: white;
+}
+
+.chords span {
+    display: inline-block;
+    width: 50px;
+}
+
+.chords-row {
+    color: white;
+}
+
+.lyrics {
+    line-height: 28px;
+}
+
+.lyrics.chorus {
+    color: #FF00FF;
+}
+
+.lyric-block {
+    margin-bottom: 25px;
+}
+
+[verses] {
+    float: left;
+    width: 50%;
+}
+
+[choruses] {
+    color: #FF00FF;
+    float: left;
+    width: 50%;
+}
+
+.tempo, .capo {
+    display: inline-block;
+}
+
+.tempo {
+    margin-left: 40px;
+}
+
+.lyric-chord-table {
+    table-layout: fixed;
+}
+
+.lyric-chord-table td {
+    padding: 0;
+    padding-right: 5px;
+}
+
+.lyric-chord-table .lyrics-row td {
+    padding-bottom: 5px;
+}
+
+[right] {
+    text-align: right;
+}
+
+.lyric-chord-header-table td {
+    width: 80px;
+}
+
+.stanza {
+    table-layout: fixed;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.stanza td {
+    padding: 0;
+    margin: 0;
+    padding-right: 3px;
+}
+
+.bar-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.chorus .lyrics-row {
+    color: #FF00FF;
+}
+
+tbody {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.lyric-block.chorus {
+    color: #FF00FF;
+}
+
+.stanza .lyrics-row td {
+    position: relative;
+    top: -3px;
+}
+
+.eighth-note {
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+}
+
+[invisible] {
+    visibility: hidden;
+}
+
+.font-0 {
+    font-size: 0;
+}
+
+/* .bar-table {
+    border: 1px solid #66FF00;
+} */
